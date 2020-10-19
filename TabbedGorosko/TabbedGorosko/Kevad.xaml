@@ -4,7 +4,25 @@
             Title="Kevad"
              x:Class="TabbedGorosko.Kevad">
   <!--Pages can be added as references or inline-->
-  <ContentPage Title="Märts" />
-  <ContentPage Title="Aprill" />
-  <ContentPage Title="Mai" />
+  <ContentPage Title="Märts" >
+        <StackLayout>
+            <Label Text="Märtsi pilti" FontSize="10"/>
+            <Image Source="marts.jpg"/>
+            <Button Text="Märts pea pidu" Clicked="Button_Clicked9"/>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Aprill">
+        <StackLayout>
+            <Label Text="Aprilli pilti" FontSize="10"/>
+            <Image Source="kevadaprill.jpg"/>
+            <Button Text="Aprilli pea pidu" Clicked="Button_Clicked10"/>
+        </StackLayout>
+    </ContentPage>
+  <ContentPage Title="Mai">
+        <StackLayout>
+            <Label Text="Mai pilti" FontSize="10"/>
+            <Image Source="kevadmai.jpg"/>
+            <Button Text="Mai pea pidu" Clicked="Button_Clicked11"/>
+        </StackLayout>
+    </ContentPage>
 </TabbedPage>

@@ -16,5 +16,18 @@ namespace TabbedGorosko
         {
             InitializeComponent();
         }
+
+        private async void Button_Clicked(object sender, EventArgs e)
+        {
+            await DisplayAlert("Pea pidu", "Septembri peamine püha on 1. september teadmistepäev", "välja");
+        }
+        private async void Button_Clicked1(object sender, EventArgs e)
+        {
+            await DisplayAlert("Pea pidu", "Oktoobri peamine püha on 5. oktoober õpetaja päev", "välja");
+        }
+        private async void Button_Clicked2(object sender, EventArgs e)
+        {
+            await DisplayAlert("Pea pidu", "Novembri peamine püha on 8. Isadepäev Eestis", "välja");
+        }
     }
 }

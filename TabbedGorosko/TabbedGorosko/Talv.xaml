@@ -4,7 +4,25 @@
             Title="Talv"
              x:Class="TabbedGorosko.Talv">
   <!--Pages can be added as references or inline-->
-  <ContentPage Title="Detsember" />
-  <ContentPage Title="Jaanuar" />
-  <ContentPage Title="Veebruar" />
+  <ContentPage Title="Detsember">
+        <StackLayout>
+            <Label Text="Detsembri pilti" FontSize="10"/>
+            <Image Source="talvdetsember.jpg"/>
+            <Button Text="Oktoobri pea pidu" Clicked="Button_Clicked3"/>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Jaanuar">
+        <StackLayout>
+            <Label Text="Jaanuari pilti" FontSize="10"/>
+            <Image Source="jaanuar.jpg"/>
+            <Button Text="Oktoobri pea pidu" Clicked="Button_Clicked4"/>
+        </StackLayout>
+    </ContentPage>
+  <ContentPage Title="Veebruar">
+        <StackLayout>
+            <Label Text="Veebruari pilti" FontSize="10"/>
+            <Image Source="veebruar.jpg"/>
+            <Button Text="Veebruari pea pidu" Clicked="Button_Clicked5"/>
+        </StackLayout>
+    </ContentPage>
 </TabbedPage>

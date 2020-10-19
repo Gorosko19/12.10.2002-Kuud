@@ -13,9 +13,9 @@ namespace TabbedGorosko
         public MainPage()
         {
             InitializeComponent();
-            Grid grd = new Grid
+            
 
-
+             
         }
     }
 }

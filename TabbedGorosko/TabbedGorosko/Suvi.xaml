@@ -4,7 +4,25 @@
             Title="Suvi"
              x:Class="TabbedGorosko.Suvi">
   <!--Pages can be added as references or inline-->
-  <ContentPage Title="Juuni" />
-  <ContentPage Title="Juuli" />
-  <ContentPage Title="August" />
+  <ContentPage Title="Juuni">
+        <StackLayout>
+            <Label Text="Juuni pilti" FontSize="10"/>
+            <Image Source="suvijuuni.jpg"/>
+            <Button Text="Juuni pea pidu" Clicked="Button_Clicked6"/>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Juuli">
+        <StackLayout>
+            <Label Text="Juuli pilti" FontSize="10"/>
+            <Image Source="suvijuuli.jpg"/>
+            <Button Text="Juuli pea pidu" Clicked="Button_Clicked7"/>
+        </StackLayout>
+    </ContentPage>
+  <ContentPage Title="August">
+        <StackLayout>
+            <Label Text="August pilti" FontSize="10"/>
+            <Image Source="suviaugust.jpg"/>
+            <Button Text="August pea pidu" Clicked="Button_Clicked8"/>
+        </StackLayout>
+    </ContentPage>
 </TabbedPage>
